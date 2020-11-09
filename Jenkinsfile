@@ -32,7 +32,7 @@ node {
            sh 'docker login -u "srinivasrayudu" -p "8688363032" docker.io'
                
             app.push("${env.BUILD_NUMBER}")
-#            app.push("latest")
+            app.push("latest")
         
     }
 }
